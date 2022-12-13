@@ -10,7 +10,7 @@
                     <h4 class="card-title">Data Sedekah</h4>
                     <a href="<?= site_url($module.'/data_sedekah/create') ?>"><button type="button"
                             class="btn btn-primary round waves-effect waves-light">
-                            Tambah Data
+                            Input Sedekah
                         </button>
                     </a>
                 </div>

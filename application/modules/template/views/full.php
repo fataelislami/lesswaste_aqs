@@ -6,11 +6,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <meta name="description"
-        content="Kostlab admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords"
-        content="admin template, Kostlab admin template, dashboard template, flat admin template, responsive admin template, web app">
-    <meta name="author" content="PIXINVENT">
+    <meta name="description" content="#SedekahSampahKeAqsyannaAja part of @aqsyanna">
+    <meta name="keywords" content="aqsyanna">
+    <meta name="author" content="aqsyanna">
     <title>Lesswaste App</title>
     <link rel="apple-touch-icon" href="<?= base_url()?>assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="<?= base_url()?>assets/images/ico/favicon.ico">
@@ -105,9 +103,9 @@
                                     class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
                                     <div class="user-nav d-sm-flex d-none"><span
                                             class="user-name text-bold-600"><?= $this->session->userdata('name')?></span><span
-                                            class="user-status"><?= ($this->session->userdata('role')==1?"Admin":"Lesswaster")?></span></div><span><img class="round"
-                                            src="<?= base_url() ?>assets/avatar.jpeg" alt="avatar" height="40"
-                                            width="40" /></span>
+                                            class="user-status"><?= ($this->session->userdata('role')==1?"Admin":"Lesswaster")?></span>
+                                    </div><span><img class="round" src="<?= base_url() ?>assets/avatar.jpeg"
+                                            alt="avatar" height="40" width="40" /></span>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right">
 
@@ -136,13 +134,7 @@
 
     <!-- BEGIN: Footer-->
     <footer class="footer footer-static footer-light">
-        <p class="clearfix blue-grey lighten-2 mb-0"><span
-                class="float-md-left d-block d-md-inline-block mt-25">COPYRIGHT &copy; 2022<a
-                    class="text-bold-800 grey darken-2" href="https://kostlab.id" target="_blank">Taman Hati Dev,</a>All rights
-                Reserved</span><span class="float-md-right d-none d-md-block">Made with<i
-                    class="feather icon-heart pink"></i> Bebas Jam Kerja</span>
-            <!-- <button class="btn btn-primary btn-icon scroll-top" type="button"><i class="feather icon-arrow-up"></i></button> -->
-        </p>
+        
     </footer>
     <!-- END: Footer-->
 

@@ -7,7 +7,7 @@
     {
         public $table = 'data_sedekah';
         public $id = 'data_sedekah.id';
-        public $order = array('id' => 'asc');
+        public $order = array('created_on' => 'desc');
         public $select='*';
 
         function __construct()

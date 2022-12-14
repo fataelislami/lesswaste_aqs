@@ -34,7 +34,7 @@
                                                     <td><?= bulan($key->month)?></td>
                                                     <td><?= (float)$key->total_weight?> gram</td>
                                                     <td><?= $key->total_data?></td>
-                                                    <td><a href="<?= base_url()?>dashboard/report/daily/<?= $key->month?>" class="btn btn-primary">Harian</a> | <a href="<?= base_url()?>dashboard/report/monthly_user/<?= $key->month?>" class="btn btn-primary">Bulanan</a></td>
+                                                    <td><a href="<?= base_url()?>dashboard/report/daily/<?= $key->month?>" class="btn btn-primary">Harian</a> | <a href="<?= base_url()?>dashboard/report/monthly_user/<?= $key->month?>" class="btn btn-primary">Leaderboard</a></td>
                                                 </tr>
                                                 <?php $i++?>
                                                 <?php }?>

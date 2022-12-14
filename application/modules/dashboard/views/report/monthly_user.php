@@ -35,7 +35,7 @@
                                                     <td><?= $key->name?></td>
                                                     <td><?= $key->phone?></td>
                                                     <td><?= $key->email?></td>
-                                                    <td><?= $key->total_weight?> gram</td>
+                                                    <td><?= (float)$key->total_weight?> gram</td>
                                                     <td><?= $key->total_data?> kali</td>
                                                     <td><a target="_blank" href="https://wa.me/<?= phone($key->phone) ?>?text=Assalamualaikum+Less+Wasters+%21%0D%0AHai+kak+<?= $key->name?>%0D%0ATerima+kasih+masih+setia+untuk+bersedekah+sampah+di+Bulan+<?= bulan($month)?>+ini+bersama+Aqsyanna+Less+Waste%0D%0A%0D%0ABulan+ini+kamu+berhasil+mengumpulkan+sampah+sebanyak+<?= (float)$key->total_weight?>+gram%0D%0A%0D%0AKami+ucapkan+jazakallah+khairan%2C+terima+kasih+banyak+kepada+kak+<?= $key->name?>+yang+sudah+istiqamah+dalam+kebaikan.%0D%0A%0D%0AJadilah+agen+perubahan%2C+mari+ubah+sampah+menjadi+sedekah..%21+Bersihkan+lingkungan%2C+dapatkan+keberkahan..%21%0D%0A%0D%0A%23SedekahSampahKeAqsyannaAja" class="btn btn-primary"><i class="fa fa-whatsapp"></i> Whatsapp</a></td>
                                                 </tr>

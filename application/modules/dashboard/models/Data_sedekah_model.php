@@ -133,6 +133,7 @@
             $this->db->select("users.name,users.institute,SUM(data_sedekah.weight) as total_weight,users.gender");
             $this->db->from($this->table);
             $this->db->join("users",'users.id=data_sedekah.users_id');
+            $this->db->where("month(data_sedekah.input_date)",date('m'));
             $this->db->group_by("data_sedekah.users_id");
             $this->db->order_by("total_weight","DESC");
             return $this->db->get();

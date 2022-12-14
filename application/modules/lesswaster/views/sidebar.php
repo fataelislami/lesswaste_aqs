@@ -4,19 +4,25 @@
                     <center><span class="menu-title" data-i18n="">Leaderboard</span></center>
                 </a>
             </li>
+            <p style="
+    font-size: smaller;
+    text-align: center;
+    margin-bottom:auto;
+    margin-top: revert;
+">Top Lesswaster Bulan Ini 🥳👏</p>
 
-            <div class="card-body">
+            <div class="card-body" style="padding: 1rem;">
+
                 <?php if($leaderboards->num_rows()>0){?>
                 <?php $i=1;?>
                 <?php foreach($leaderboards->result() as $key){?>
                 <div class="d-flex justify-content-start align-items-center mb-1">
                     <div class="avatar mr-50">
-                        <img src="<?= base_url()?>assets/avatar.png" alt="avtar img holder"
-                            height="35" width="35">
+                        <img src="<?= base_url()?>assets/avatar.png" alt="avtar img holder" height="35" width="35">
                     </div>
                     <div class="user-page-info">
                         <h6 class="mb-0"><?= $key->name?></h6>
-                        <span class="font-small-2"><?= $key->total_weight?> Gram</span>
+                        <span class="font-small-2"><?= (float)$key->total_weight?> Gram</span>
                     </div>
                     <?php if($i==1){?>
                     <button type="button" class="btn btn-primary btn-icon ml-auto waves-effect waves-light">
@@ -35,7 +41,7 @@
                 <?php }?>
                 <?php }?>
 
-                
+
 
 
             </div>

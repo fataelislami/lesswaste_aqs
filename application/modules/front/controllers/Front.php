@@ -11,8 +11,8 @@ class Front extends MY_Controller{
 
   function index()
   {
-    $data['name']='Kostlab';
-    $this->load->view('welcome_message',$data);
+    $data['name']='Lesswaste Aqs';
+    $this->load->view('landing-page',$data);
   }
 
 

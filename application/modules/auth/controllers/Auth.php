@@ -41,7 +41,7 @@ if($this->input->post('phone')!=''){
             redirect(base_url('lesswaster'));
         }
     }else{
-        $this->session->set_flashdata('flashMessage', 'No hp atau password salah');
+        $this->session->set_flashdata('flashDanger', 'No hp atau password salah');
         redirect(base_url('login'));
     }
 }else{

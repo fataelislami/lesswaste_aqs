@@ -34,7 +34,18 @@
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="../../<?= base_url()?>assets/css/style.css">
     <!-- END: Custom CSS-->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8VMVN8WN1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-C8VMVN8WN1');
+    </script>
 </head>
 <!-- END: Head-->
 
@@ -52,9 +63,9 @@
                 <section class="row flexbox-container">
                     <div class="col-xl-8 col-11 d-flex justify-content-center">
                         <div class="card bg-authentication rounded-0 mb-0">
-                        <div class="row m-0" style="display: flex;flex-direction: row;align-items: center;">
+                            <div class="row m-0" style="display: flex;flex-direction: row;align-items: center;">
                                 <div class="col-lg-6 d-lg-block d-none text-center align-self-center px-1 py-0">
-                                <img src="<?= base_url()?>assets/images/auth_image.jpeg" alt="branding logo">
+                                    <img src="<?= base_url()?>assets/images/auth_image.jpeg" alt="branding logo">
                                 </div>
                                 <div class="col-lg-6 col-12 p-0">
                                     <div class="card rounded-0 mb-0 px-2">
@@ -101,8 +112,8 @@
 
                                                     <fieldset
                                                         class="form-label-group form-group position-relative has-icon-left">
-                                                        <input type="text" class="form-control" name="institute" id="institute"
-                                                            placeholder="Instansi" required>
+                                                        <input type="text" class="form-control" name="institute"
+                                                            id="institute" placeholder="Instansi" required>
                                                         <div class="form-control-position">
                                                             <i class="feather icon-tag"></i>
                                                         </div>

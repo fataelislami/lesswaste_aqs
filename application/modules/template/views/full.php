@@ -44,7 +44,18 @@
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="<?= base_url()?>assets/css/style.css">
     <!-- END: Custom CSS-->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C8VMVN8WN1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-C8VMVN8WN1');
+    </script>
 </head>
 <!-- END: Head-->
 
@@ -103,8 +114,8 @@
                                     <div class="user-nav d-sm-flex d-none"><span
                                             class="user-name text-bold-600"><?= $this->session->userdata('name')?></span><span
                                             class="user-status"><?= ($this->session->userdata('role')==1?"Admin":"Lesswaster")?></span>
-                                    </div><span><img class="round" src="<?= base_url() ?>assets/avatar.png"
-                                            alt="avatar" height="40" width="40" /></span>
+                                    </div><span><img class="round" src="<?= base_url() ?>assets/avatar.png" alt="avatar"
+                                            height="40" width="40" /></span>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right">
 
@@ -133,7 +144,7 @@
 
     <!-- BEGIN: Footer-->
     <footer class="footer footer-static footer-light">
-        
+
     </footer>
     <!-- END: Footer-->
 

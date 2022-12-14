@@ -118,7 +118,7 @@ public function create_action()
 );
 
             $this->Data_sedekah_model->insert($data);
-            $this->session->set_flashdata('message', 'Create Record Success');
+            $this->session->set_flashdata('message', 'Data sedekah berhasil tersimpan');
             redirect(site_url('dashboard/data_sedekah'));
         }
     }

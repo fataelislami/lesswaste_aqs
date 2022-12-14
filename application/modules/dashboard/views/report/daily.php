@@ -31,7 +31,7 @@
                                                 <tr role="row" class="odd">
                                                     <td><?= $i?></td>
                                                     <td><?= $key->input_date?></td>
-                                                    <td><?= $key->total_weight?> gram</td>
+                                                    <td><?= (float)$key->total_weight?> gram</td>
                                                     <td><?= $key->total_data?></td>
                                                     <td><a href="<?= base_url()?>dashboard/report/list?date=<?= $key->input_date?>" class="btn btn-primary">Lihat Data</a></td>
                                                 </tr>

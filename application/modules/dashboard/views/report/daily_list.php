@@ -35,9 +35,9 @@
                                                     <td><?= $key->name?></td>
                                                     <td><?= $key->phone?></td>
                                                     <td><?= $key->email?></td>
-                                                    <td><?= $key->total_weight?> gram</td>
+                                                    <td><?= (float)$key->total_weight?> gram</td>
                                                     <td><?= $key->total_data?> kali</td>
-                                                    <td><a target="_blank" href="https://wa.me/<?= phone($key->phone) ?>?text=Assalamualaikum+Less+Wasters+%21%0D%0AHai+kak+<?= $key->name ?>%0D%0ATerima+kasih+telah+bersedekah+sampah+di+Aqsyanna+Less+Waste%0D%0AHari+ini+total+berat+sampah+yang+kamu+kumpulkan+ada+sebanyak+<?= $key->total_weight?>+gram%0D%0A%0D%0AKami+ucapkan+jazakallah+khairan%2C+terima+kasih+banyak+kepada+kak+Nama+yang+sudah+menyedekahkan+sampahnya+dan+menjadi+nilai+manfaat+untuk+sesama.%0D%0A%0D%0AJadilah+agen+perubahan%2C+mari+ubah+sampah+menjadi+sedekah..%21+Bersihkan+lingkungan%2C+dapatkan+keberkahan..%21+%E2%9C%A8%0D%0A%0D%0A%23SedekahSampahKeAqsyannaAja" class="btn btn-primary"><i class="fa fa-whatsapp"></i> Whatsapp</a></td>
+                                                    <td><a target="_blank" href="https://wa.me/<?= phone($key->phone) ?>?text=Assalamualaikum+Less+Wasters+%21%0D%0AHai+kak+<?= $key->name ?>%0D%0ATerima+kasih+telah+bersedekah+sampah+di+Aqsyanna+Less+Waste%0D%0AHari+ini+total+berat+sampah+yang+kamu+kumpulkan+ada+sebanyak+<?= (float)$key->total_weight?>+gram%0D%0A%0D%0AKami+ucapkan+jazakallah+khairan%2C+terima+kasih+banyak+kepada+kak+Nama+yang+sudah+menyedekahkan+sampahnya+dan+menjadi+nilai+manfaat+untuk+sesama.%0D%0A%0D%0AJadilah+agen+perubahan%2C+mari+ubah+sampah+menjadi+sedekah..%21+Bersihkan+lingkungan%2C+dapatkan+keberkahan..%21+%E2%9C%A8%0D%0A%0D%0A%23SedekahSampahKeAqsyannaAja" class="btn btn-primary"><i class="fa fa-whatsapp"></i> Whatsapp</a></td>
                                                 </tr>
                                                 <?php $i++?>
                                                 <?php }?>

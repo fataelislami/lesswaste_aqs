@@ -55,7 +55,7 @@
               $row[] = $no;
 							$row[] = $Data_sedekah_model->name;
 							$row[] = $Data_sedekah_model->input_date;
-							$row[] = $Data_sedekah_model->weight;
+							$row[] = (float)$Data_sedekah_model->weight;
 							$row[] = $Data_sedekah_model->type;
 							$row[] = $Data_sedekah_model->created_on;
 							

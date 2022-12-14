@@ -8,7 +8,7 @@
     <meta name="generator" content="Mobirise v5.7.0, mobirise.com">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link rel="shortcut icon" href="<?= base_url()?>assets/images/ico/favicon.ico" type="image/x-icon">
-    <meta name="description" content="">
+    <meta name="description" content="Aqsyanna Less Waste merupakan gerakan anak muda yang mengajak pemuda Muslim serta masyarakat pada umumnya untuk peduli pada lingkungan.">
 
 
     <title>Lesswaste Aqsyana</title>
@@ -80,12 +80,7 @@
                                 href="index.html#features16-9">About</a></li>
                     </ul>
                     <div class="icons-menu">
-                        <a class="iconfont-wrapper" href="https://www.instagram.com/lesswaste_aqs/" target="_blank">
-                            <span class="p-2 mbr-iconfont socicon-facebook socicon"></span>
-                        </a>
-                        <a class="iconfont-wrapper" href="https://www.instagram.com/lesswaste_aqs/" target="_blank">
-                            <span class="p-2 mbr-iconfont socicon-twitter socicon"></span>
-                        </a>
+                       
                         <a class="iconfont-wrapper" href="https://www.instagram.com/lesswaste_aqs/" target="_blank">
                             <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
                         </a>
@@ -330,7 +325,7 @@
                                 sedekahkan kembali bagi yang membutuhkan. Dukung aksi kami mengurangi
                                 sampah.<br><br>Kurangi Sampahmu! <br>Sedekahmu, Ladang Pahalamu.</p>
                             <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4"
-                                    href="https://www.instagram.com/lesswaste_aqs/">Read more</a></div>
+                                    href="<?= base_url()?>register">Join Now</a></div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">

@@ -21,7 +21,7 @@
                   <h5 class="">Masukan no hp</h5>
                 </div>
                 <div class="card-body">
-                    <input type="text" name="phone" id="phone" class="form-control">
+                    <input type="text" name="phone" placeholder="cth: 0897xxxx" id="phone" class="form-control">
 
                 </div>
             </div>
@@ -61,15 +61,15 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-sm-2 col-form-label">Berat</label>
+                            <label class="col-sm-2 col-form-label" style="display: flex;align-items: center;">Berat <span style="font-size: 10px; margin-left: 2px;">(gram)</span></label>
                             <div class="col-sm-10">
-                                <input type="text" name="weight" class="form-control">
+                                <input type="text" name="weight" placeholder="cth: 1000/300/55.3" class="form-control">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label class="col-sm-2 col-form-label">Jenis</label>
                             <div class="col-sm-10">
-                                <input type="text" name="type" class="form-control">
+                                <input type="text"  placeholder="cth: plastik/beling/kardus/dll" name="type" class="form-control">
                             </div>
                         </div>
                         <input type="hidden" name="users_id" id="users_id" class="form-control">

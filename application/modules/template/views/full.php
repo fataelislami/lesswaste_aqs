@@ -10,7 +10,6 @@
     <meta name="keywords" content="aqsyanna">
     <meta name="author" content="aqsyanna">
     <title>Lesswaste App</title>
-    <link rel="apple-touch-icon" href="<?= base_url()?>assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="<?= base_url()?>assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
 
@@ -104,7 +103,7 @@
                                     <div class="user-nav d-sm-flex d-none"><span
                                             class="user-name text-bold-600"><?= $this->session->userdata('name')?></span><span
                                             class="user-status"><?= ($this->session->userdata('role')==1?"Admin":"Lesswaster")?></span>
-                                    </div><span><img class="round" src="<?= base_url() ?>assets/avatar.jpeg"
+                                    </div><span><img class="round" src="<?= base_url() ?>assets/avatar.png"
                                             alt="avatar" height="40" width="40" /></span>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right">

@@ -11,7 +11,7 @@
                 <?php foreach($leaderboards->result() as $key){?>
                 <div class="d-flex justify-content-start align-items-center mb-1">
                     <div class="avatar mr-50">
-                        <img src="<?= base_url()?>assets/images/portrait/small/avatar-s-5.png" alt="avtar img holder"
+                        <img src="<?= base_url()?>assets/avatar.png" alt="avtar img holder"
                             height="35" width="35">
                     </div>
                     <div class="user-page-info">

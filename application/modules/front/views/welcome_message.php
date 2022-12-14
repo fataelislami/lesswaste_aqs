@@ -5,11 +5,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <meta name="description" content="Kostlab admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords" content="admin template, Kostlab admin template, dashboard template, flat admin template, responsive admin template, web app">
-    <meta name="author" content="PIXINVENT">
-    <title>Kostlab Starterkit</title>
-    <link rel="apple-touch-icon" href="<?= base_url()?>assets/images/ico/apple-icon-120.png">
+    <meta name="description" content="Platform lesswaster untuk sedekah sampah by @aqsyana">
+    <meta name="keywords" content="Aqsyana">
+    <meta name="author" content="Aqsyana">
+    <title>Lesswaste App</title>
     <link rel="shortcut icon" type="image/x-icon" href="<?= base_url()?>assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
 
@@ -51,13 +50,11 @@
       <div class="card-content">
         <div class="card-body text-center">
           <img src="<?= base_url()?>assets/images/pages/maintenance-2.png" class="img-fluid align-self-center" alt="branding logo">
-          <h1 class="font-large-2 my-1">Assalamualaikum!</h1>
+          <h1 class="font-large-2 my-1">Aqsyanna Less Waste</h1>
           <p class="px-2">
-            Selamat datang di KostLab Framework Starterkit<br><b>Framework</b> ini dibuat karena <b>kemalasan</b> team @kostlab dalam membuat sebuah <b>C.R.U.D</b> <br>
-            dan kami bertekad untuk memanjakan kemalasan kami dengan membuat sebuah sistem crud generator karya anak <b>Kostan</b><br>
-            Salam. <b>@kostlab</b>
+            Selamat datang di Platform Lesswaste by @aqsyana<br><b>
           </p>
-          <a class="btn btn-primary btn-lg mt-1" href="<?= base_url() ?>setup">Oke Mengerti</a>
+          <a class="btn btn-primary btn-lg mt-1" href="<?= base_url() ?>login">Masuk/Daftar</a>
         </div>
       </div>
     </div>
